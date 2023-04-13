@@ -1,12 +1,40 @@
 body {
-    background: #d2e9cd;
-}
 
-img {
-    width: 50% 
-}
+
+
 
 h1 { 
-color : rgb(111, 150, 105);
+color : rgb(0, 0, 0);
 text-align : center;s 
 } 
+/* CSS */
+/* Rule */
+/* declaration is a property and value */
+
+body {
+    background: #fcfcfc;
+
+    display: grid;
+    height : 100vh;
+    place-items: center;
+    color: #8a6a48
+  }
+  
+  main {
+    background : tan ;
+    width : 400px ;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  div {
+    text-align: center;
+  }
+  main:hover {
+    background: black; 
+    box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+  transform : scale(1.25);  
+  }
